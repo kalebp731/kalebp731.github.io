@@ -1,0 +1,99 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+background-image: image('so-white.png');
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.top-nav{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.top-nav > a {
+  margin:0 35px;
+  font-size: 40px;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 100px;
+  font-style: italic;
+  text-align: center;
+}
+#atlanta-made {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: 750px;
+}
+.titles{
+  font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  font-style: italic;
+  text-align: center;
+}
+#about{
+  margin: 60px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  text-align:center;
+  line-height: 2;
+}
+div{
+  margin: 60px 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  text-align:center;
+}
+#hands{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  height: inherit;
+}
+input{
+  height: 70px;
+  width: 400px;
+}
+#contactMe{
+  text-decoration: underline;
+}
+#LinkedIn{
+  display: block;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+#email{
+  display: block;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
