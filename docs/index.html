@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body background='so-white.png'>
+	<body class='main-block' background='so-white.png'>
 <header>
 	<div class="top-nav">
 		<a href="#about">About</a>
@@ -34,12 +34,13 @@
 	<div id='examples'>
 		Play rock, paper, scissors with me <br>
 		Type in what hand you're throwing<br>
-		<input id='userHand' type="text" placeholder='Whatcha-got?'><br>
+		<input id='userHand' type="text" placeholder='Whatcha got?'><br>
 		<button type="button" id='throw' name="button">Throw!</button>
-		<img src="rps.png" id="hands" alt="picture of handa forming rock, paper, scissors">
+		<img src="rps.png" id="hands" alt="picture of hands forming rock, paper, scissors">
+		
 		<h3 id='answerSpace'></h3>
 	</div><br>
-	<div id='linkGithub'> Click <a href='https://github.com/kalebp731'>here</a> to check out my Github page</div>
+	<div id='linkGithub'> Click <a href='https://github.com/kalebp731'>here</a> to check my Github page</div>
 </section>
 <section id='contact-info'>
 	<h2 class='titles' id='contactMe'> Get in Touch </h2><br>
@@ -52,20 +53,20 @@
 				 <input class="fname" type="text" name="name" placeholder="Full name">
 				 <input type="text" name="name" placeholder="Email">
 				 <input type="text" name="name" placeholder="Contact Number">
-				 <input type="checkbox" name="name" value="YES">
-				 <label for="yes">Can I text you?</label>
-				 <input type="checkbox" name="name" value="NO">
+				 <label for="yes" >Can I text you?</label>
+				 <input type="checkbox" name="name" value="YES">Yes
+				 <input type="checkbox" name="name"  value="NO">No
 				 <input type="text" name="name" placeholder="Name of your Website">
 			 </div>
-			 <p>What are you looking to have set up and when is a good time to talk about it?</p>
+			 <h3 id='describe'>What are you looking to have set up and when is a good time to talk about it?</h3>
 			 <div>
 				 <textarea rows="4"></textarea>
 			 </div>
-			 <button type="submit" id="submitButton" href="/">Submit</button>
-		 </form>	
+			 <button id='submitButton' type="submit" href="/">Submit</button>
+		 </form>
 <footer>
-	
 </footer>
 		<script type="text/javascript" src="js/main.js"></script>
+
 	</body>
 </html>
