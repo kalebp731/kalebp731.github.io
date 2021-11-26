@@ -134,10 +134,14 @@ h3 {
       button:hover {
       background: #2371a0;
       }
-      @media (min-width: 30em) {
+       @media (min-width: 30em) {
       .main-block {
       flex-direction: row;
       }
+      input, h1 {
+        flex-wrap: nowrap;
+      }
+    }
 
 /******************************************
 /* ADDITIONAL STYLES
