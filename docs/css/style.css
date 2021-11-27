@@ -136,7 +136,7 @@ h3 {
       color: #666;
       }
       #submitButton {
-      width: 40%;
+      width: 30%;
       padding: 10px;
       margin: inherit;
       border: none;
@@ -148,14 +148,12 @@ h3 {
       button:hover {
       background: #2371a0;
       }
-      @media (min-width: 30em) {
-      .main-block {
-      flex-direction: row;
-      }
-      input, h1 {
-        flex-wrap: nowrap;
-      }
-    }
+      footer > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
 
 /******************************************
 /* ADDITIONAL STYLES
